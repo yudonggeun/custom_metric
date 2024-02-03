@@ -20,6 +20,6 @@ public class SampleController {
 
     @GetMapping("/in")
     public String scaleIn() {
-        return "scale out";
+        return "scale in";
     }
 }
